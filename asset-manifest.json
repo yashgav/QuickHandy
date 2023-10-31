@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QuickHandy/static/css/main.491a0624.css",
+    "main.js": "/QuickHandy/static/js/main.2152d6ba.js",
+    "static/js/787.90dddbd0.chunk.js": "/QuickHandy/static/js/787.90dddbd0.chunk.js",
+    "index.html": "/QuickHandy/index.html",
+    "main.491a0624.css.map": "/QuickHandy/static/css/main.491a0624.css.map",
+    "main.2152d6ba.js.map": "/QuickHandy/static/js/main.2152d6ba.js.map",
+    "787.90dddbd0.chunk.js.map": "/QuickHandy/static/js/787.90dddbd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491a0624.css",
+    "static/js/main.2152d6ba.js"
+  ]
+}
