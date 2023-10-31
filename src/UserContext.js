@@ -21,16 +21,16 @@ export const UserProvider = ({ children }) => {
     if (loginTime) {
       const currentTime = Date.now();
       const timeElapsed = currentTime - loginTime;
-      const remainingTime = 6000000 - timeElapsed; // 1 minute in milliseconds
+      const remainingTime = 600000 - timeElapsed; // 1 minute in milliseconds
 
       if (remainingTime > 0) {
         setTimeout(() => {
           logout();
-          window.location.href = '/'; // Redirect to landing page
+          window.location.href = '/QuickHandy'; // Redirect to landing page
           alert('Session closed. Please log in again.');
         }, remainingTime);
       } else {
-        window.location.href = '/'; // Redirect to landing page
+        window.location.href = '/QuickHandy'; // Redirect to landing page
         logout();
       }
     }

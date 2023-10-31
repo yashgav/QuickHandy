@@ -15,9 +15,9 @@ function App() {
         <div className="App">
           <Routes>
             {/* <Route path="/" element={<SamplePage />} /> */}
-            <Route path="/" element={<Landing_page />} />
-            <Route path="/worker" element={<Worker_main />} />
-            <Route path="/customer" element={<Customer_main />} />
+            <Route path="/Quickhandy" element={<Landing_page />} />
+            <Route path="/Quickhandy/worker" element={<Worker_main />} />
+            <Route path="/Quickhandy/customer" element={<Customer_main />} />
           </Routes>
         </div>
       </Router>

@@ -32,7 +32,7 @@ export default function Login() {
                     password: wpass,
                     type:'worker',
                 });
-                navigate('/worker');
+                navigate('/QuickHandy/worker');
             } else {
                 alert("Invalid credentials, please try again");
             }
@@ -62,7 +62,7 @@ export default function Login() {
                     password: cpass,
                     type:'customer',
                 });
-                navigate('/customer');
+                navigate('/QuickHandy/customer');
             } else {
                 alert("Invalid credentials, please try again");
             }
@@ -78,7 +78,7 @@ export default function Login() {
         <div className='container'>
             <div className=" row m-5" >
                 <h3>Login Here</h3>
-                <div className="col-6">
+                <div className="col-md-6">
                     <h2>worker</h2>
                     <form onSubmit={(e) => wlogin(e)} className="col-6">
                         <div class="form-group">
@@ -96,7 +96,7 @@ export default function Login() {
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                     <h2>customer</h2>
                     <form onSubmit={(e) => clogin(e)} className="forms col-6">
                         <div class="form-group">
